@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: #666666;
+}
+
+.logo {
+    background-color: #f80032;
+    height: 110px;
+}
+.foto img {
+    position: relative; 
+    top: -40px;   
+    width: 180px;  
+    
+}
+#login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    color: #666666;
+    
+}
+
+.texto{
+    margin-top: 20%;
+}
+
+.texto p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.texto, img, h2{
+    display: inline-block;
+}
+
+.email input{
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 45px;
+    padding-left: 15px;
+    color: black;
+    border: 2px solid #666666;
+    margin-bottom: 15px;
+    margin-top: 7px;
+    
+}
+
+.email p {
+    margin-top:15px;
+    margin-right: 190px;
+}
+.email p::before {
+    content: "*";
+    color: red;
+}
+.senha input{
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 45px;
+    padding-left: 15px;
+    color: black;
+    border: 2px solid #666666;
+    margin-bottom: 15px;
+    margin-top: 7px;
+}
+
+.senha p {
+    margin-top: 10px;
+}
+
+.senha p::before {
+    content: "*"; 
+    color: red;    
+}
+.senha a{
+    margin-left: 145px;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.entrar input{
+    cursor: pointer;
+    border: none;
+    padding-left: 15px;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #f80032 ;
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.genero{
+    width: 300px;
+    height: 45px;
+    padding-left: 20px;
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 7px;
+    color:#666666;
+}
+.genero p{
+    margin-top:15px;
+    margin-right: 190px;
+}
+
+.genero input {
+    padding-left: 20px;
+    margin-top: 10px;
+  
+    
+}
+.genero h5{
+    color: #bebebe;
+    margin-top: 2px;
+    font-size: 12px;
+    margin-left: 14px;
+}
+
+.genero p::before {
+    content: "*";
+    color: red;
+}
+
+.nascimento p{
+    margin-top:15px;
+    margin-right: 190px;
+
+}
+ input{
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 45px;
+    padding-left: 15px;
+    color: black;
+    border: 2px solid #666666;
+    margin-bottom: 15px;
+    margin-top: 7px;
+    
+}
+
+.email2 p {
+    margin-top:5px;
+    margin-right: 248px;
+}
+.email2 p::before {
+    content: "*";
+    color: red;
+}
+.email2 h5{
+    color: #bebebe;
+    margin-top: 2px;
+    font-size: 12px;
+    margin-left: 14px;
+}
+
+.senha2 input{
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+    height: 45px;
+    padding-left: 15px;
+    color: black;
+    border: 2px solid #666666;
+    margin-bottom: 15px;
+    margin-top: 7px;
+    
+}
+
+.senha2 p {
+    margin-top:5px;
+    margin-right: 248px;
+}
+.senha2 p::before {
+    content: "*";
+    color: red;
+}
+.senha2 h5{
+    color: #bebebe;
+    margin-top: 2px;
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.criar_cad input{
+    cursor: pointer;
+    border: none;
+    padding-left: 15px;
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #f80032 ;
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.final3 {
+    margin-top: 10px;
+}
+
+.final3 a{
+    font-size: 15px;
+}
+
+.final3 p{
+    font-size: 15px;
+}
+.final4{
+    margin-top: 10px;
+}
+
+.final4 a{
+    font-size: 15px;
+}
+
+.final4 p{
+    font-size: 15px;
+}
